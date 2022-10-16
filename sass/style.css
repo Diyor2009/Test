@@ -1,0 +1,96 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: local(Futura New);
+  font: Futura New;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  height: 100%;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.white {
+  color: #fff;
+}
+
+.bg-white {
+  background: #fff;
+}
+
+.download_btn {
+  background-color: black;
+  color: #fff;
+  padding: 2px 8px 1px 8px;
+  border: 1px solid gray;
+  border-bottom: 2px solid gray;
+  font-size: 7px;
+  line-height: 14px;
+  height: 41px;
+  width: 128px;
+}
+.download_btn .download_brand {
+  font-size: 14px;
+  font-weight: 400;
+}
+.download_btn .download_brand1 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+footer {
+  color: #fff;
+  width: 100vw;
+  min-height: 450px;
+  background-color: #59443f;
+  font-size: 14px;
+}
+footer li {
+  line-height: 26px;
+}
+footer li:hover > * {
+  color: rgb(211, 205, 205);
+}
+footer li:hover {
+  cursor: pointer;
+}
+footer li a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 450;
+}
+footer li .footer_brand {
+  font-size: 40px;
+  font-family: "SchoolBook";
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+footer .brand_icon {
+  height: 12vh;
+  position: absolute;
+  left: -58%;
+  top: -25%;
+}
+footer .groups_img {
+  width: 40px;
+}/*# sourceMappingURL=style.css.map */

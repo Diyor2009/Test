@@ -1,0 +1,39 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: local(Futura New);
+    font: Futura New;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    height: 100%;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.white {
+    color: #fff;
+}
+
+.bg-white {
+    background: #fff;
+}
